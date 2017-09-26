@@ -1,0 +1,164 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="imagetoolbar" content="no">
+<meta name="description" content="Kristina Naude is currently seeking a job in the advertising or graphic design field in the Washington D.C. metro area. ">
+<meta name="keywords" content="graphic design, portfolio, job, seeker, employment, portfolio, resume, Washington, DC, Wash DC, Photoshop, advertising, Adobe, Illustrator">
+<title>Kristina Naude - Homepage</title>
+<link rel="shortcut icon" href="http://www.kristinanaude.com/favicon.ico" type="image/x-icon">
+<style type="text/css" media="all">
+@import url(http://www.kristinanaude.com/css/reset.css);
+@import url(http://www.kristinanaude.com/css/style.css);
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js"></script>
+</head>
+<body>
+<div id="aside"> <img src="img/portrait.png" alt="This is a picture of me!" width="235" height="185" > <a href="mailto:kristina.naude@gmail.com"><img src="img/contact.png" alt="Contact me at kristina.naude@gmail.com" width="235" height="227"></a> <a href="http://www.russellandkristina.com//blog/author/knaude/"><img src="img/read-my-blog.png" alt="Read My Blog" width="235" height="201"></a></div>
+<div id="main"> <strong id="marker"><img src="img/marker.png" width="135" height="143"></strong>
+  <p id="objective"><strong>Objective:</strong> To obtain a position in the advertising and marketing field utilizing my strong organizational skills, educational background, and ability to work well with others.</p>
+  <a href="/portfolio"><img src="img/portfolio.png" alt="View My Portfolio" width="335" height="354"></a></div>
+<div id="resume"> <a href="/docs/KristinaNaudeResume.pdf"><img src="img/resume.png" alt="Download My PDF Resume" width="325" height="154"></a>
+  <div id="carousel">
+    <div id="belt">
+      <div id="page-1" class="page">
+        <h1>Kristina Naude’</h1>
+        <a class="email" href="mailto:kristina.naude@gmail.com">kristina.naude@gmail.com</a>
+        <h2>Education</h2>
+        <p>University of Maryland, College Park <span class="date">May 2008</span></p>
+        <p>B.A in Communication Studies<br>
+          B.A. in Art Studio, Concentration in Graphic Design</p>
+        <p>Language skills: Beginner Spanish</p>
+        <p>Relevant Course Work:
+        <ul>
+          <li>3- Dimensional Product Design</li>
+          <li>2- Dimensional Layout Design</li>
+          <li>Design in Marketing, under UMD Robert H.Smith Business School</li>
+          <li>Public Relations Comprehensive Course</li>
+        </ul>
+        </p>
+        <h2>Work Experiences</h2>
+        <h3>Media Relations Intern, Georgetown University Hospital, Washington, DC</h3>
+        <span class="date">Jan 2009 - present</span>
+        <ul>
+          <li>Assist Media Relations Director during video taping interviews</li>
+          <li>Participate in weekly staff meetings and brainstorming sessions</li>
+          <li>Clip related health articles for monthly "Media Monitoring Reports"</li>
+        </ul>
+        <h3>Traffic/Workflow and Design Intern, Merrick Towle Communications, Beltsville, MD</h3>
+        <span class="date">Fall 2007</span>
+        <ul>
+          <li>Managed job flow from both the Account Management & Designer department</li>
+          <li>Responsible for assigning projects to over 15 designers based on specialties</li>
+          <li>Developed timelines for projects to follow, and monitored their status each day</li>
+          <li>Insured product quality when projects were assigned</li>
+          <li>Modified advertisements, such as changing dates, swapping out pictures, editing pictures and adjusting information</li>
+        </ul>
+      </div>
+      <div id="page-2" class="page">
+        <h3>Facilities Manager, Reservations Office at Stamp Student Union, College Park, MD</h3>
+        <span class="date">Summer 2007</span>
+        <ul>
+          <li>Established a standard operating procedure (SOP) by implementing a color-coded prioritization system with office forms</li>
+          <li>First point of contact for patrons who came to the office with room reservation needs</li>
+        </ul>
+        <h3>Secretary and Webmaster, Filipino Cultural Association</h3>
+        <span class="date">2005- 2008</span>
+        <ul>
+          <li>Collaborated with executive board members to create networking events</li>
+          <li>Generated &amp; composed weekly newsletter to be sent to entire organization</li>
+          <li>Expanded public awareness throughout campus &amp; Washington D.C. area through
+            community outreach programs &amp; fundraisers</li>
+          <li>Chaired and oversaw the execution of the annual Fashion Show Fundraiser</li>
+        </ul>
+        <h3>Programming Chair, Filipino American Studies Program</h3>
+        <span class="date">2006- 2008</span>
+        <ul>
+          <li>Launched program that fundraised over $10,000 in scholarships.</li>
+          <li>Assembled press release packets for Filipino-American Studies Fundraising Gala</li>
+          <li>Networked with the Asian American Studies Department and representatives
+            from the greater Filipino American community in the Washington D.C. area</li>
+        </ul>
+        <h3>Workshop Chair Coordinator, Filipino Intercollegiate Networking Dialog Inc.</h3>
+        <span class="date">Fall 2005</span>
+        <ul>
+          <li>Developed a training course for and administered training to over 75 moderators</li>
+          <li>Prepared activities that helped students gain knowledge of Filipino-American Culture</li>
+          <li>Administered training to over 500 students at the mid-Atlantic Collegiate Conference</li>
+        </ul>
+        <h2>Computer and Design Skills</h2>
+        <ul>
+          <li>Adobe Photoshop, Illustrator, InDesign &amp; QuarkXPress</li>
+          <li>Microsoft Office</li>
+          <li><em>Proficient in both Windows and Mac operating systems</em></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <ul id="nav" class="hide">
+    <li id="prev"><a href="">Previous</a></li>
+    <li id="next"><a href="">Next</a></li>
+  </ul>
+</div>
+<script type="text/javascript">
+	var belt = $('#belt');
+	var page = 1;
+	
+	function nextPage(){
+		var currentPosition = $(belt).css('left').replace('px','');
+		if (currentPosition <= 0) {
+			page++;
+		}
+		if (currentPosition <= -435) {
+			page = 1;
+		}
+		showPage(page);
+	}
+	function prevPage(){
+		var currentPosition = $(belt).css('left').replace('px','');	
+		if (currentPosition > -436 && currentPosition < 0 ) {
+			page--;
+		}
+		if (currentPosition == 0) {
+			page = 2;
+		}
+		showPage(page);
+		
+	}
+	function showPage(num){
+	if (num == 1) {
+		$(belt).animate({ 
+        	left:'0px'
+      	}, 1000 );
+	}
+	else if (num == 2) {
+		$(belt).animate({ 
+        	left:'-435px'
+      	}, 1000 );	
+	}
+	}
+	
+	
+	$('#carousel').attr("id","carousel-active");
+	$('#next').click(function(){
+		nextPage();
+		return false;
+	});
+	$('#prev').click(function(){
+		prevPage();
+		return false;
+	});
+	$('#nav').removeClass('hide');
+
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-50793-7");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
